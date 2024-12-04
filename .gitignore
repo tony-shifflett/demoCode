@@ -1,0 +1,36 @@
+# Node.js dependencies and build artifacts
+/node_modules/
+/npm-debug.log
+/package-lock.json
+/yarn.lock
+/dist/
+/build/
+
+# C++ build artifacts and temporary files
+*.out
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dSYM
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+/*.d
+*.swp
+*.swo
+
+# VS Code specific files
+.vscode/
+
+# IDE specific files (e.g., JetBrains, Eclipse, etc.)
+.idea/
+*.iml
+*.project
+*.classpath
+
+# OS-specific files
+.DS_Store
+Thumbs.db
